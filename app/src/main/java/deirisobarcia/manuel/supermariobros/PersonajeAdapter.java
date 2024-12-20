@@ -24,15 +24,15 @@ public class PersonajeAdapter extends RecyclerView.Adapter<PersonajeAdapter.Pers
         mPersonajes = personajes;
     }
 
-    // Este método se llama para crear una nueva vista de cada elemento de la lista
-    @Override
+
+
     public PersonajeViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(mContext).inflate(R.layout.item_personaje, parent, false);
         return new PersonajeViewHolder(view);
     }
 
-    // Este método se llama para asignar datos a cada vista
-    @Override
+
+
     public void onBindViewHolder(PersonajeViewHolder holder, int position) {
         final Personaje personaje = mPersonajes.get(position);
         holder.nombre.setText(personaje.getNombre());
@@ -47,8 +47,8 @@ public class PersonajeAdapter extends RecyclerView.Adapter<PersonajeAdapter.Pers
         });
     }
 
-    // Este método devuelve la cantidad de elementos en la lista
-    @Override
+
+
     public int getItemCount() {
         return mPersonajes.size();
     }
