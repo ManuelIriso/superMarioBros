@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">superMarioBros</string> <string name="title_main">Personajes Mario Bros</string>
+    <string name="button_click_here">Haz clic aquí</string>
+    <string name="about_title">Acerca de...</string>
+    <string name="about_message">Aplicación desarrollada por Manuel de Iriso Barcia. Versión 1.0.</string>
+
+</resources>
